@@ -1,0 +1,115 @@
+.ck-editor__editable,
+textarea {
+    min-height: 150px !important;
+}
+
+.datatable {
+    width: 100% !important;
+}
+
+table.dataTable tbody td.select-checkbox::before,
+table.dataTable tbody td.select-checkbox::after,
+table.dataTable tbody th.select-checkbox::before,
+table.dataTable tbody th.select-checkbox::after {
+    top: 50% !important;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dt-buttons {
+    margin-bottom: 0.333em !important;
+}
+
+.dt-buttons .btn {
+    margin-left: 0.333em !important;
+    border-radius: 0 !important;
+}
+
+.table.datatable {
+    box-sizing: border-box !important;
+    border-collapse: collapse !important;
+}
+
+table.dataTable thead th {
+    border-bottom: 2px solid #dee2e6 !important;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.select2 {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background-image: none !important;
+}
+
+.btn-group-xs > .btn,
+.btn-xs {
+    padding: 1px 5px !important;
+    font-size: 12px !important;
+    line-height: 1.5 !important;
+    border-radius: 3px !important;
+}
+
+.searchable-title {
+    font-weight: bold !important;
+}
+.select2-container--open {
+    z-index: 9999 !important;
+}
+.searchable-fields {
+    padding-left:5px !important;
+}
+.searchable-link {
+    padding:0 5px 0 5px !important;
+}
+.searchable-link:hover   {
+    cursor: pointer !important;
+    background: #eaeaea !important;
+}
+.select2-results__option {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.form-group .required::after {
+    content: " *" !important;
+    color: red !important;
+}
+
+.form-check.is-invalid ~ .invalid-feedback {
+    display: block !important;
+}
+
+.dataTables_length label select {
+    width: 65px !important;
+}
+
+div.dt-button-collection {
+    padding: 0 !important;
+}
+
+.buttons-columnVisibility {
+    display: block !important;
+}
+
+.dt-button-collection {
+    background-color: cornflowerblue !important;
+}
+
+.buttons-columnVisibility.active {
+    background-color: rgba(128, 128, 128, 0.1) !important;
+    font-weight: bolder !important;
+}
+
+.btn-default {
+    background-color: #f4f4f4 !important;
+    color: #444 !important;
+    border-color: #ddd !important;
+}
