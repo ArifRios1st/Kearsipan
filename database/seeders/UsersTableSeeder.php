@@ -20,6 +20,16 @@ class UsersTableSeeder extends Seeder
                 'verified_at'        => '2022-09-06 19:04:08',
                 'verification_token' => '',
             ],
+            [
+                'id'                 => 2,
+                'name'               => 'User',
+                'email'              => 'user@user.com',
+                'password'           => bcrypt('password'),
+                'remember_token'     => null,
+                'verified'           => 1,
+                'verified_at'        => '2022-09-06 19:04:08',
+                'verification_token' => '',
+            ],
         ];
 
         User::insert($users);
